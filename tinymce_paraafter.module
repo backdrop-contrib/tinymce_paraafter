@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Hook implementations of TinyMCE paragraph after plugin.
+ */
+
+/**
+ * Implements hook_tinymce_external_plugins().
+ */
+function tinymce_paraafter_tinymce_external_plugins($format) {
+  $module_url = base_path() . backdrop_get_path('module', 'tinymce_paraafter');
+  $plugins = array(
+    'paraafter' => array(
+      'plugin_path' => $module_url . '/js/plugins/paraafter/plugin.js',
+      'buttons' => array(
+        'paraafter' => array(
+          'icon' => 'paraafter',
+          'tooltip' => 'Insert paragraph after',
+        ),
+      ),
+      'icons' => array(
+        'paraafter' => 'paraafter-icon.svg',
+      ),
+    ),
+  );
+  return $plugins;
+}

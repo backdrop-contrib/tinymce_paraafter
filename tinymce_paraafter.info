@@ -1,0 +1,7 @@
+type = module
+name = TinyMCE paragraph after
+description = TinyMCE plugin to insert a paragraph after current position.
+
+dependencies[] = tinymce
+
+backdrop = 1.x
