@@ -8,7 +8,7 @@ When you have block elements like tables, div, blockquote... directly following
  at the end of table, double enter inside blockquote). Not always easy to
  remember. Sometimes it's even impossible (like in nested div or in address tags).
 
-In this case, this plugin comes for the rescue.
+In this case, this plugin comes to the rescue.
 
 ![Button icon of this plugin](https://raw.githubusercontent.com/backdrop-contrib/tinymce_paraafter/1.x-1.x/js/plugins/paraafter/icons/paraafter-icon.svg)
 
