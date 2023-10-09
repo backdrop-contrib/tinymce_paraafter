@@ -2,11 +2,11 @@
 
 TinyMCE plugin to insert a new paragraph after block level elements.
 
-Wen you have block elements like tables, div, blockquote... directly following
+When you have block elements like tables, div, blockquote... directly following
  each other in content, it can be tricky to "squeeze" in other content. TinyMCE
  does provide options to do so, but that's not always the same (downwards arrow
- at the end of table, double enter inside blockquote). Sometimes not easy to
- remember, sometimes it's even impossible (like in nested div or address tags).
+ at the end of table, double enter inside blockquote). Not always easy to
+ remember. Sometimes it's even impossible (like in nested div or in address tags).
 
 In this case, this plugin comes for the rescue.
 
