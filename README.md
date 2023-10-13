@@ -17,7 +17,7 @@ Hit the button and keep on writing. ;-)
 ## Installation
 
 - Install this module using the official [Backdrop CMS instructions](https://docs.backdropcms.org/documentation/extend-with-modules)
-- Add the plugin and toolbar button to your editor profile
+- Add the plugin and toolbar button (or menu item) to your editor profile
 
 ## Issues
 
