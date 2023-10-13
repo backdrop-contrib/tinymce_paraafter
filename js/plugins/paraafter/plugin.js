@@ -7,7 +7,7 @@
 tinymce.PluginManager.add('paraafter', function (editor, url) {
   editor.ui.registry.addButton('paraafter', {
     icon: 'paraafter',
-    tooltip: 'Insert paragraph after',
+    tooltip: editor.options.get('paraafterTooltip'),
     onAction: function (api) {
       paraafterTools.insert(editor);
     }
@@ -15,7 +15,7 @@ tinymce.PluginManager.add('paraafter', function (editor, url) {
 
   editor.ui.registry.addMenuItem('paraafter', {
     icon: 'paraafter',
-    text: 'Insert paragraph after',
+    text: editor.options.get('paraafterTooltip'),
     onAction: function (api) {
       paraafterTools.insert(editor);
     }

@@ -15,11 +15,14 @@ function tinymce_paraafter_tinymce_external_plugins($format) {
       'buttons' => array(
         'paraafter' => array(
           'icon' => 'paraafter',
-          'tooltip' => 'Insert paragraph after',
+          'tooltip' => t('Insert paragraph after'),
         ),
       ),
       'icons' => array(
         'paraafter' => 'paraafter-icon.svg',
+      ),
+      'variables' => array(
+        'paraafterTooltip' => t('Insert paragraph after'),
       ),
     ),
   );
